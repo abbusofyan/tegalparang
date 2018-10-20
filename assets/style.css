@@ -1,0 +1,37 @@
+html {
+   height: 100%;
+   position: relative;
+}
+
+body {
+   background-color: #F2F2F2;
+}
+#login {
+   width: 30%;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin: 0;
+   transform: translate(-50%, -50%);
+}
+
+#register {
+   width: 30%;
+   position: relative;
+   /* top: 50%; */
+   left: 50%;
+   margin: 0;
+   transform: translate(-50%);
+}
+
+.logo {
+  height: 100px;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */#register {width: 80%;} .logo {padding-top: 20px;} #login {width: 90%;} }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ #register {width: 50%;} #login {width: 70%;} }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */#register {width: 40%;} #login {width: 60%;} }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */#register {width: 30%;} .logo {padding-top: 20px;} #login {width: 50%;} }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ #login {width: 40%;} }
+@media (min-width:1281px) { /* hi-res laptops and desktops (hd)*/ #login {width: 30%;top: 50%;} }
+@media (min-width:1600px) { /* hi-res laptops and desktops (hd+)*/ #login {top: 50%;} }

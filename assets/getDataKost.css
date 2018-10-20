@@ -1,0 +1,16 @@
+#no {
+    min-width:50px; /* force table to be oversize */
+}
+
+#status_tanah {
+    min-width:50px; /* force table to be oversize */
+}
+
+#alamat {
+    min-width:300px; /* force table to be oversize */
+}
+
+
+th {
+    min-width:200px; /* force table to be oversize */
+}

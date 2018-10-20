@@ -1,0 +1,195 @@
+html {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+#login {
+  width: 30%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+#register {
+  width: 30%;
+  position: relative;
+  /* top: 50%; */
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%);
+}
+
+.logo {
+  height: 100px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .9);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#frm_input {
+  padding-bottom: 0;
+}
+
+#place_here {
+  margin: 20px;
+}
+
+.btn-logout {
+  position: absolute;
+  right: 0;
+}
+
+.navbar .btn-logout:hover {
+  background-color: transparent;
+}
+
+/* Profile picture */
+.profile-pic {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  margin: 2em 2.5em;
+}
+
+.foto_penghuni {
+  background-color: #fff;
+  width: 200px;
+  height: auto;
+  margin: 2em 2.5em;
+}
+
+.foto {
+  background-color: #fff;
+  width: 200px;
+  height: auto;
+}
+
+#profileMenu {
+  background-color: #000;
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
+
+#profilePenghuni {
+  background-color: #000;
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.text-info-pic {
+  margin-top: 1.5em;
+}
+
+@media (min-width:320px) {
+
+  /* smartphones, iPhone, portrait 480x320 phones */
+  #register {
+    width: 80%;
+  }
+
+  .logo {
+    padding-top: 20px;
+  }
+
+  #login {
+    width: 90%;
+  }
+}
+
+@media (min-width:481px) {
+
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  #register {
+    width: 50%;
+  }
+
+  #login {
+    width: 70%;
+  }
+}
+
+@media (min-width:641px) {
+
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  #register {
+    width: 40%;
+  }
+
+  #login {
+    width: 60%;
+  }
+}
+
+@media (min-width:961px) {
+
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #register {
+    width: 30%;
+  }
+
+  .logo {
+    padding-top: 20px;
+  }
+
+  #login {
+    width: 50%;
+  }
+}
+
+@media (min-width:1025px) {
+
+  /* big landscape tablets, laptops, and desktops */
+  #login {
+    width: 40%;
+  }
+}
+
+@media (min-width:1281px) {
+
+  /* hi-res laptops and desktops (hd)*/
+  #login {
+    width: 30%;
+    top: 50%;
+  }
+}
+
+@media (min-width:1600px) {
+
+  /* hi-res laptops and desktops (hd+)*/
+  #login {
+    top: 50%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .title {
+    margin-top: 4em;
+    padding: 0 11px;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .btn-custom {
+    margin-bottom: 10px;
+  }
+}

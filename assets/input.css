@@ -1,0 +1,24 @@
+.title {margin-top: 100px;}
+
+#frm_input{
+  padding-bottom: 50px;
+}
+
+body {
+   background-color: #F2F2F2;
+}
+
+.footer {
+  background-color: #343A40;
+}
+
+#table {
+  width: 3000px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: rgb(200, 194, 200);
+  margin-top:0px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+}
